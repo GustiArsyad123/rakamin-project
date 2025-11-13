@@ -1,0 +1,71 @@
+# ======================================
+# 🟢 NODE.JS / JAVASCRIPT PROJECT
+# ======================================
+
+# 1️⃣ Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json      # opsional: simpan hanya jika kamu ingin versi dependensi tetap sama
+
+# 2️⃣ Build artifacts / output
+dist/
+build/
+coverage/
+.tmp/
+.cache/
+
+# 3️⃣ Environment configuration
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 4️⃣ OS-specific junk
+.DS_Store           # macOS
+Thumbs.db           # Windows
+
+# 5️⃣ IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 6️⃣ Logs and reports
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# 7️⃣ Temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# 8️⃣ Optional tools / frameworks
+# Jika pakai TypeScript
+*.tsbuildinfo
+
+# Jika pakai Next.js / React
+.next/
+out/
+
+# Jika pakai Firebase / Serverless
+.firebase/
+.functions/
+
+# Jika pakai Docker
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Jika pakai Blockchain frameworks (contoh)
+.truffle/
+build/contracts/
+keystore/
+wallets/
+*.db
